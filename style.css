@@ -70,12 +70,14 @@ body {
 
 /* header */
 .bg {
-    background: url('img/bg-mountain-clouds.jpg') 20% 40%;
+    background: #ffffff;
 }
 
 .bg-fixed {
     background-attachment: fixed;
 }
+/* Jumbotron */
+
 
 
 /*social media icons - CSS animation */

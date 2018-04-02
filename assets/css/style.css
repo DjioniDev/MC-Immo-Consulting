@@ -1104,11 +1104,28 @@ ul.lists-block li {
 ul.client-logos{ text-align: center;}
 ul.client-logos li{ margin: 40px 60px;}
 
+
+/* Jumbotron */
+#jumbotron{
+	padding-bottom:8%;
+	background:#fdf1fa;
+}
+#jumbotron h1{
+  color: #8a195e;
+}
+
+/* Carousel */
+#carousel{
+	padding-bottom:8%;
+	background:#ffffff;
+}
+
+
 /* Blog Section
 =========================*/
 #blog-post{
 	padding-bottom:8%;
-	background:#FFF;
+	background:#fdf1fa;
 }
 .post-block {
   position: relative;
@@ -1268,18 +1285,18 @@ span.divider-line {
 /* Contact Section 
 =======================*/
 #contact{
-    background-color: #F1F1F1;
+    background-color: #8a195e;
 }
 .contact-info .media-left{ vertical-align: middle;}
 .contact-info i {
   vertical-align: middle;
   font-size: 40px;
-  color: #000000;
+  color: #ffffff;
 }
 .contact-info p {
   font-size: 16px;
   font-weight: 500;
-  color: #000000;
+  color: #ffffff;
   margin-bottom: 0;
   margin-left: 20px;
 }
@@ -1293,7 +1310,7 @@ iframe{
 #contact-form textarea.form-control,
 #contact-form input.form-control {
     font-family: 'Montserrat Bold';
-    color: #000000;
+    color: #ffffff;
     font-size: 12px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -1327,13 +1344,13 @@ iframe{
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-::-webkit-input-placeholder { color: #000000 !important; }
+::-webkit-input-placeholder { color: #ffffff !important; }
 
-:-moz-placeholder { color: #000000 !important; }/* Firefox 18- */ 
+:-moz-placeholder { color: #ffffff !important; }/* Firefox 18- */ 
 
-::-moz-placeholder { color: #000000 !important; }/* Firefox 19+ */ 
+::-moz-placeholder { color: #ffffff !important; }/* Firefox 19+ */ 
 
-:-ms-input-placeholder {  color: #000000 !important;}
+:-ms-input-placeholder {  color: #ffffff !important;}
 
 .help-block ul {
     display: block;
@@ -1349,7 +1366,7 @@ iframe{
 /* Menu Style Two */
 .layout-two a.menu-toggle {
     background-color: #ffffff;
-    color: #000000;
+    color: #ffffff;
 }
 #menuTwo .fade, 
 #menuTwo .modal, 
